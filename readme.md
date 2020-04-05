@@ -30,7 +30,7 @@
 #应用名
 helper:
     path: 'C:\atm\atmHelper'
-    gitUrl: 'http://tengmaoqing:tengmaoqing@gitlab.huishoubao.com/hsb_atm/atmhelper.git'
+    gitUrl: 'http://tengmaoqing:sdfgdsg@gitlab.huishoubao.com/hsb_atm/atmhelper.git'
     start: 'wscript start.vbs'
     reStart: 'wscript start.vbs'
     stop: 'wscript stop.vbs'
@@ -83,4 +83,3 @@ salt 'matm-4' vmanger.stopApp helper
 
 ## 其它
 更多方法查看代码，
-脚本示例可参考 ui代码库 scripts 目录
