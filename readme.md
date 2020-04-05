@@ -49,8 +49,8 @@ helper:
 |appCreated|否|wscript start.vbs|应用创建成功后回调脚本|
 |updated|否|wscript start.vbs|应用更新/回滚成功后回调脚本|
 
-> zip地址来自 Jenkins， Jenkins打包后上传的地址应满足这个格式 /easy_atm_**appName**/**version**.zip, 如 /easy_atm_ui/master.zip, 这里 appName = ui, version = master
-> 最终完整的下载地址如 https://atm-1251010403.cos.ap-guangzhou.myqcloud.com/easy_atm_ui/master.zip
+> zip地址来自 Jenkins， Jenkins打包后上传的地址应满足这个格式 /**appName**/**version**.zip, 如 /ui/master.zip, 这里 appName = ui, version = master
+> 最终完整的下载地址来自上传的cdn地址 如 https://xx.cos.ap-guangzhou.myqcloud.com/xx/xmaster.zip
 
 举例
 ```yaml
